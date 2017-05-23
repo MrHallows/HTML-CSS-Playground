@@ -150,6 +150,60 @@
 			</tfoot>
 		</table>
 		<hr>
+
+		<fieldset>
+			<legend>Your details</legend>
+			<p>
+				<label for="first-name">First Name:</label>
+				<br>
+				<input type="text" name="first-name">
+			</p>
+			<p>
+				<label for="last-name">Last Name:</label>
+				<br>
+				<input type="text" name="last-name">
+			</p>
+			<p>
+				<label for="email">Email:</label>
+				<br>
+				<input type="email" name="email">
+			</p>
+			<p>
+				<label for="birthdate">Birthdate:</label>
+				<br>
+				<input type="date" name="birthdate" value="birthdate">
+
+			</p>
+		</fieldset>
+
+		<fieldset>
+			<legend>Your Review</legend>
+			<p>How did you hear about us?</p>
+			<select class="" name="media">
+				<option value="google">Google</option>
+				<option value="friends">Friends</option>
+				<option value="email">Email</option>
+			</select>
+			<br>
+			<br>
+			<p>Would you visit again?</p>
+			<input type="radio" name="visit-again" value="yes">
+			<label for="yes">Yes</label>
+			<input type="radio" name="visit-again" value="no">
+			<label for="no">No</label>
+			<input type="radio" name="visit-again" value="maybe">
+			<label for="maybe">Maybe</label>
+			<br>
+			<br>
+			<p>Comments:</p>
+			<textarea name="comments" rows="8" cols="80"></textarea>
+			<br>
+			<input type="checkbox" name="sign-up" value="sign-up" checked="checked">
+			<label for="sign-up">Sign up for email updates</label>
+			<br>
+			<br>
+			<input type="submit" name="submit" value="Submit Review">
+		</fieldset>
 		<a href="#top">Go to top</a>
 	</body>
 </html>
