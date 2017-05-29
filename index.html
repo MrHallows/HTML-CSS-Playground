@@ -5,14 +5,7 @@
 		<meta name="description" content="a playground to play around with HTML and CSS">
 		<meta name="author" http-equiv="author" content="Zulwiyoza Putra">
 		<title>HTML Playground</title>
-		<script
-		type="text/javascript"
-		src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js">
-		</script>
-		<script type="text/javascript">
-		swfobject.embedSWF("flash/bird.swf"),
-		"bird", "400", "300", "8.0.0");
-		</script>
+
 	</head>
 	<body>
 		<h1 id="top">Index</h1>
@@ -247,10 +240,17 @@
 		</div>
 
 		<hr>
-		<div id="bird">
-			<p>An animation of a bird taking a shower</p>
+		<video
+		src="videos/puppy.mp4"
+		poster="images/poster.png"
+		width="400"
+		height="300"
+		preload="auto"
+		controls
+		loop>
 
-		</div>
+		</video>
+		<br>
 
 		<a href="#top">Go to top</a>
 		<p>&copy; Copyright (c) 2017 Zulwiyoza Putra All Rights Reserved.</p>
