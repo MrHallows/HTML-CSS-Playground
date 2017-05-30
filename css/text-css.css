@@ -26,6 +26,25 @@ h3 {
 	font-size: 150%;
 }
 
-.introduction {
-	
+p {
+	font-family: "Arial", Verdana, sans-serif;
+	line-height: 1.4em;
+	color: #665544;
+}
+
+.introduction:first-line {
+	font-weight: bold;
+}
+
+.credits {
+	font-style: italic;
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
