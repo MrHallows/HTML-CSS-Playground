@@ -1,28 +1,71 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="description" content="a playground to play around with HTML and CSS">
-		<meta name="author" http-equiv="author" content="Zulwiyoza Putra">
-		<title>HTML Playground</title>
-	</head>
-	<body>
-		<h1 id="top">Index</h1>
-		<h2>HTML</h2>
-		<a href="pages/text.html">Text</a><br>
-		<a href="pages/lists.html">Lists</a><br>
-		<a href="pages/links.html">Links</a><br>
-		<a href="pages/images.html">Images</a><br>
-		<a href="pages/table.html">Table</a><br>
-		<a href="pages/forms.html">Forms</a><br>
-		<a href="pages/extra.html">Extra</a><br>
-		<a href="pages/media.html">Media</a><br>
-		<h2>CSS</h2>
-		<a href="pages/introduction-css.html">Introduction</a><br>
-		<a href="pages/color-css.html">Color</a><br>
-		<a href="pages/text-css.html">Text</a><br>
-	</body>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="a playground to play around with HTML and CSS">
+	<meta name="author" http-equiv="author" content="Zulwiyoza Putra">
+	<title>HTML Playground</title>
+
+	<link rel="stylesheet" id="" href="./css/reset.css" type="text/css" media="all"/>
+	<link rel="stylesheet" id="" href="./css/color.css" type="text/css" media="all"/>
+	<link rel="stylesheet" id="" href="./css/text-css.css" type="text/css" media="all"/>
+	<link rel="stylesheet" id="" href="./css/master.css" type="text/css" media="all"/>
+	<link rel="stylesheet" id="" href="./css/styles.css" type="text/css" media="all"/>
+</head>
+
+<body>
+	<h1 id="top">Index</h1>
+	<h2>HTML</h2>
+	<ul class="menu horizontal">
+		<li>
+			<a href="pages/text.html">Text</a>
+		</li>
+		<li>
+			<a href="pages/lists.html">Lists</a>
+		</li>
+		<li>
+			<a href="pages/links.html">Links</a>
+		</li>
+		<li>
+			<a href="pages/images.html">Images</a>
+		</li>
+		<li>
+			<a href="pages/table.html">Table</a>
+		</li>
+		<li>
+			<a href="pages/forms.html">Forms</a>
+		</li>
+		<li>
+			<a href="pages/extra.html">Extra</a>
+		</li>
+		<li>
+			<a href="pages/media.html">Media</a>
+		</li>
+	</ul>
+
+	<h2>CSS</h2>
+	<ul class="menu vertical">
+		<li>
+			<a href="pages/introduction-css.html">Introduction</a>
+		</li>
+		<li>
+			<a href="pages/color-css.html">Color</a>
+		</li>
+		<li>
+			<a href="pages/text-css.html">Text</a>
+		</li>
+	</ul>
+
 	<footer>
 		<p>&copy; Copyright (c) 2017 Zulwiyoza Putra All Rights Reserved.</p>
 	</footer>
+
+	<!-- section:scripts -->
+	<script>
+		console.log('animationTimingFunction:', document.querySelector('.menu').style.animationTimingFunction);
+	</script>
+	<!-- /endsection:scripts -->
+</body>
+
 </html>

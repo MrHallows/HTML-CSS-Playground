@@ -1,13 +1,13 @@
 body {
-	background-color: silver;
-	color: white;
+	background-color: hsl(0, 0%, 75%);
+	color: hsl(0, 0%, 100%);
 	padding: 32px;
 	font-family: Arial, Verdana, sans-serif;
 }
 
 h2 {
-	background-color: #ffffff;
-	background-color: hsla(0, 100%, 100%, 0.5);
+	background-color: hsl(0, 0%, 100%);
+	background-color: hsla(0, 100%, 100%, 0.01);
 	color: #64645A;
 	padding: inherit;
 }
@@ -18,61 +18,61 @@ p {
 }
 
 .zero {
-	background-color: rgb(238, 62, 128);
+	background-color: hsl(338, 84%, 59%);
 }
 
 .one {
-	background-color: rgb(244, 90, 139);
+	background-color: hsl(341, 88%, 65%);
 }
 
 .two {
-	background-color: rgb(238, 106, 152);
+	background-color: hsl(339, 80%, 67%);
 }
 
 .three {
-	background-color: rgb(244, 123, 166);
+	background-color: hsl(339, 85%, 72%);
 }
 
 .four {
-	background-color: rgb(245, 140, 178);
+	background-color: hsl(338, 84%, 75%);
 }
 
 .five {
-	background-color: rgb(246, 159, 192);
+	background-color: hsl(337, 83%, 79%);
 }
 
 .six {
-	background-color: rgb(245, 176, 204);
+	background-color: hsl(336, 78%, 83%);
 }
 
 .seven {
-	background-color: rgb(0, 187, 136);
+	background-color: hsl(164, 100%, 37%);
 }
 
 .eight {
-	background-color: rgb(140, 202, 242);
+	background-color: hsl(204, 80%, 75%);
 }
 
 .nine {
-	background-color: rgb(114, 193, 240);
+	background-color: hsl(202, 81%, 69%);
 }
 
 .ten {
-	background-color: rgb(84, 182, 237);
+	background-color: hsl(202, 81%, 63%);
 }
 
 .eleven {
-	background-color: rgb(48, 182, 237);
+	background-color: hsl(197, 84%, 56%);
 }
 
 .twelve {
-	background-color: rgb(0, 160, 230);
+	background-color: hsl(198, 100%, 45%);
 }
 
 .thirteen {
-	background-color: rgb(0, 149, 226);
+	background-color: hsl(200, 100%, 44%);
 }
 
 .fourteen {
-	background-color: rgb(0, 136, 221);
+	background-color: hsl(203, 100%, 43%);
 }
